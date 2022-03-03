@@ -5,7 +5,7 @@ pre-emptively starts a second execution of a query against another node,
 before the first node has replied.
 
 There are multiple speculative execution strategies that the driver can use.
-Speculative execution can be configured for the whole whole `Session` during
+Speculative execution can be configured for the whole `Session` during
 its creation.
 
 Available speculative execution strategies:
